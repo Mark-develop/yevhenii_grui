@@ -17,11 +17,7 @@ export default function About() {
             className="relative aspect-[3/4] w-full max-w-md mx-auto"
           >
             <Image
-<<<<<<< HEAD
-              src="/yevhenii_grui/public/profile.jpg" // Убедитесь, что изображение находится в папке public
-=======
               src={`${basePath}/profile.jpg`}
->>>>>>> 4eaff7a (Add dynamic path)
               alt="Yevhenii Grui - Open Consulting"
               fill
               className="object-cover rounded-lg shadow-xl"
