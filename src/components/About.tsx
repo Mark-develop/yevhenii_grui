@@ -16,7 +16,7 @@ export default function About() {
             className="relative aspect-[3/4] w-full max-w-md mx-auto"
           >
             <Image
-              src={`${basePath}/profile.jpg`}
+              src="/profile.jpg"
               alt="Yevhenii Grui - Open Consulting"
               fill
               className="object-cover rounded-lg shadow-xl"
