@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { usePathname } from 'next/navigation'
 
 export default function About() {
   const basePath = process.env.NODE_ENV === 'production' ? '/yevhenii_grui' : ''
