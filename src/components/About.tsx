@@ -1,8 +1,11 @@
 'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { usePathname } from 'next/navigation'
 
 export default function About() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/yevhenii_grui' : ''
+  
   return (
     <section id="about" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -14,7 +17,11 @@ export default function About() {
             className="relative aspect-[3/4] w-full max-w-md mx-auto"
           >
             <Image
+<<<<<<< HEAD
               src="/yevhenii_grui/public/profile.jpg" // Убедитесь, что изображение находится в папке public
+=======
+              src={`${basePath}/profile.jpg`}
+>>>>>>> 4eaff7a (Add dynamic path)
               alt="Yevhenii Grui - Open Consulting"
               fill
               className="object-cover rounded-lg shadow-xl"
