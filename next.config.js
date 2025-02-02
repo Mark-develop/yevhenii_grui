@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/yevhenii_grui',
+  basePath: process.env.NODE_ENV === 'production' ? '/yevhenii_grui' : '',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
