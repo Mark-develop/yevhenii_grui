@@ -14,7 +14,7 @@ export default function About() {
             className="relative aspect-[3/4] w-full max-w-md mx-auto"
           >
             <Image
-              src="/profile.jpg" // Убедитесь, что изображение находится в папке public
+              src="/yevhenii_grui/public/profile.jpg" // Убедитесь, что изображение находится в папке public
               alt="Yevhenii Grui - Open Consulting"
               fill
               className="object-cover rounded-lg shadow-xl"
